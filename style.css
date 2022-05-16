@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    padding: 0;
+   font-family:  'SupercellText-Regular',Helvetica,Arial,sans-serif;
+}
+
+.header {
+    position: absolute;
+    position: fixed;
+    margin:0;
+    width:80%;
+    margin-left: 100px;
+    margin-right: 90px;
+    background-color: black;
+    height: 12vh;
+    }
+    nav {
+        display: flex;
+    
+    }
+    img {
+        padding-left: 18px;
+        padding-top: 15px;
+        height: 34px;
+    }
+    .icons li {
+        display:inline-block;
+        margin: 0 15px;
+      
+    }
+    .icons li a{
+        text-decoration: none;
+        display: block;
+        color: #808080;
+        padding-top: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        font-family: 'SupercellText-Medium',Helvetica,Arial,sans-serif;;
+    }
+    #search {
+        padding-left: 340px;
+    }
+   .dark {
+       align-items: center;
+       display: flex;
+     justify-content: center;
+     padding-top: 250px;
+     color: #000000;
+      font-family: 'SupercellHeadline-Heavy',sans-serif;
+    font-size:25px ;
+    
+       }
+   p{
+      text-align: center;
+      display: flex;
+      padding-left: 36%;
+      line-height: 1.75;
+      font-size: 18px;
+      font-family: 'SupercellText-Medium',Helvetica,Arial,sans-serif;
+  }
+  span {
+      padding-left: 45%;
+     
+  }
+  button {
+      border-radius: 20px;
+      background-color: #2d85f3;
+      border-color: #ffff;
+      width: 120px;
+      height: 50px;
+       
+}
+.outer {
+    background-image: url("../supimg/bg_hero_frontpage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+}
+.main {
+    width: 100%;
+    display: flex;
+}
+.first {
+    width:50%;
+}
+.pic {
+    width:500px;
+    height: auto;
+    padding-left: 50px;
+}
+.second {
+    width:50%;
+}
+.first h4 {
+    color:#fb4a9d;
+    text-align: center;
+}
+.first p {
+    text-align: center;
+    padding-left: 155px;
+}
+.second h4 {
+    text-align: center;
+    color:#fb4a9d;
+}
+.second p {
+   text-align: center;
+   
+}
+.bgc {
+    background-image: url("../supimg/image9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    height:100%;
+    display: flex;
+
+}
+
+.text{
+    width: 60%;
+    height: 100%;
+}
+.img{
+    width: 50%;
+    height: 100%;
+    padding-left: 50%;
+    margin-top: 0;
+
+}
+.text h3 {
+    padding-left: 180px;
+    padding-top: 40%;
+    color: #ffff;
+   
+}
+.bgc-1 {
+    background-image: url("./supimg/image11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    height:450px;
+    display: flex;
+    width: 100%;
+}
+.text-1 {
+    width: 100%;
+    height: 100%;
+    
+
+}
+.text-1 span {
+    align-items: center;
+    padding-top:900px;
+}
+a.button1 {
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    background: #fff;
+    font-family: 'SupercellText-Bold',Helvetica,Arial,sans-serif;
+}
+.helo{
+   padding-bottom: 30%;
+}
+.text-1 a {
+    text-decoration: none;
+}
+.out{
+    width:100%;
+    display: flex;
+}
+.one{
+    width: 50%;
+    background-color: #fff;
+}
+.one img{
+    height:400px;
+  width:550px;
+  padding-left: 40px;
+}
+.one h4 {
+    padding-left: 120px;
+    font-size: 15px;
+    font-family: 'SupercellText-Medium',Helvetica,Arial,sans-serif;
+}
+.one p {
+    font-size: 80%;
+    line-height: 1.65em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 40px;
+    text-align: center;
+    
+}
+.two {
+    width: 50%;
+}
+.two img {
+    height: 400px;
+    width: 550px;
+    padding-left: 50px;
+}
+.two h4 {
+    font-size: 15px;
+    font-family: 'SupercellText-Medium',Helvetica,Arial,sans-serif;
+    padding-left: 120px;
+}
+.two p {
+    font-size: 80%;
+    line-height: 1.65em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 40px;
+    text-align: center;
+    padding-right: 50px;
+}
+
+footer{
+    width:100%;
+     bottom:0;
+    background-color: #000;
+    height:300px;
+}
+.social-links {
+    display: flex;
+}
+.social-links li{
+    list-style-type: none;
+}
+
+.final-links  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+  
+}
+.final-links {
+    display: flex;
+}
+
+.menu {
+    padding: 0 8px;
+    list-style-type: none;
+   
+}
+.final-logo img {
+    float: right;
+}
+.end {
+    color: #666;
+    padding-right: 75%;
+    font-family: 'SupercellText-Medium',Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+
+
